@@ -1,0 +1,193 @@
+{
+  "categories": [
+    { "id": 1, "name": "Laticínios" },
+    { "id": 2, "name": "Padaria" },
+    { "id": 3, "name": "Bebidas" },
+    { "id": 4, "name": "Higiene Pessoal" },
+    { "id": 5, "name": "Limpeza" },
+    { "id": 6, "name": "Mercearia" },
+    { "id": 7, "name": "Hortifruti" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Leite Integral UHT 1L",
+      "brand": "Piracanjuba",
+      "sku": "LAT001",
+      "category": "Laticínios",
+      "price": 5.49,
+      "stock": 150,
+      "unit": "UN",
+      "active": true,
+      "imageUrl": "https://piracanjuba.com.br/wp-content/uploads/2022/10/Leite-UHT-Integral-Piracanjuba-1L.png"
+    },
+    {
+      "id": 2,
+      "name": "Pão de Forma Integral 500g",
+      "brand": "Wickbold",
+      "sku": "PAD001",
+      "category": "Padaria",
+      "price": 8.99,
+      "stock": 80,
+      "unit": "UN",
+      "active": true,
+      "imageUrl": "https://static.paodeacucar.com/img/uploads/1/903/24934903.png"
+    },
+    {
+      "id": 3,
+      "name": "Refrigerante Sem Açúcar 2L",
+      "brand": "Coca-Cola",
+      "sku": "BEB001",
+      "category": "Bebidas",
+      "price": 9.5,
+      "stock": 120,
+      "unit": "UN",
+      "active": true,
+      "imageUrl": "https://static.paodeacucar.com/img/uploads/1/761/25002761.png"
+    },
+    {
+      "id": 4,
+      "name": "Sabonete Original 90g",
+      "brand": "Dove",
+      "sku": "HIG001",
+      "category": "Higiene Pessoal",
+      "price": 3.2,
+      "stock": 250,
+      "unit": "UN",
+      "active": true,
+      "imageUrl": "https://images.dove.com/is/image/content/dam/unilever/dove/brazil/pack_shot/84155260-31121043.png"
+    },
+    {
+      "id": 5,
+      "name": "Detergente Neutro 500ml",
+      "brand": "Ypê",
+      "sku": "LIM001",
+      "category": "Limpeza",
+      "price": 2.89,
+      "stock": 300,
+      "unit": "UN",
+      "active": true,
+      "imageUrl": "https://ype.ind.br/wp-content/uploads/2023/03/Detergente-Ype-Neutro.png"
+    },
+    {
+      "id": 6,
+      "name": "Arroz Agulhinha Tipo 1 5kg",
+      "brand": "Camil",
+      "sku": "MER001",
+      "category": "Mercearia",
+      "price": 28.9,
+      "stock": 90,
+      "unit": "PC",
+      "active": true,
+      "imageUrl": "https://www.camil.com.br/wp-content/uploads/2022/09/arroz-branco-camil-1.png"
+    },
+    {
+      "id": 7,
+      "name": "Maçã Gala (a granel)",
+      "brand": "Hortifruti",
+      "sku": "HOR001",
+      "category": "Hortifruti",
+      "price": 9.98,
+      "stock": 50,
+      "unit": "KG",
+      "active": true,
+      "imageUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/336/388/products/maca-gala1-c6933eba4e4d77593c16757656608832-1024-1024.png"
+    },
+    {
+      "id": 8,
+      "name": "Iogurte Grego Morango 100g",
+      "brand": "Vigor",
+      "sku": "LAT002",
+      "category": "Laticínios",
+      "price": 4.15,
+      "stock": 0,
+      "unit": "UN",
+      "active": false,
+      "imageUrl": "https://static.clubeextra.com.br/img/uploads/1/365/20197365.png"
+    },
+    {
+      "id": 9,
+      "name": "Café em Pó Tradicional 500g",
+      "brand": "3 Corações",
+      "sku": "MER002",
+      "category": "Mercearia",
+      "price": 18.79,
+      "stock": 110,
+      "unit": "PC",
+      "active": true,
+      "imageUrl": "https://www.3coracoes.com.br/wp-content/uploads/2022/09/cafe-torrado-e-moido-tradicional-3-coracoes-500g.png"
+    },
+    {
+      "id": 10,
+      "name": "Shampoo Restauração 400ml",
+      "brand": "Pantene",
+      "sku": "HIG002",
+      "category": "Higiene Pessoal",
+      "price": 25.99,
+      "stock": 60,
+      "unit": "UN",
+      "active": true,
+      "imageUrl": "https://images.tcdn.com.br/img/img_prod/747385/shampoo_pantene_restauracao_400ml_12041_1_3000d2d3f6631ad029cd7f607c31e217.png"
+    },
+    {
+      "id": 11,
+      "name": "Água Sanitária 2L",
+      "brand": "Qboa",
+      "sku": "LIM002",
+      "category": "Limpeza",
+      "price": 7.5,
+      "stock": 45,
+      "unit": "UN",
+      "active": true,
+      "imageUrl": "https://static.clubeextra.com.br/img/uploads/1/902/575902.png"
+    },
+    {
+      "id": 12,
+      "name": "Queijo Minas Frescal (a granel)",
+      "brand": "Laticínios Frescos",
+      "sku": "LAT003",
+      "category": "Laticínios",
+      "price": 55.4,
+      "stock": 15,
+      "unit": "KG",
+      "active": true,
+      "imageUrl": "https://www.queijodalagoa.com.br/wp-content/uploads/2020/05/queijo-minas-frescal-tradicional.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Suco de Laranja 900ml",
+      "brand": "Natural One",
+      "sku": "BEB002",
+      "category": "Bebidas",
+      "price": 12.99,
+      "stock": 70,
+      "unit": "UN",
+      "active": true,
+      "imageUrl": "https://naturalone.com.br/wp-content/uploads/2022/08/laranja-refri-900ml-frente-768x768.png"
+    },
+    {
+      "id": 14,
+      "name": "Feijão Carioca Tipo 1 1kg",
+      "brand": "Kicaldo",
+      "sku": "MER003",
+      "category": "Mercearia",
+      "price": 9.99,
+      "stock": 130,
+      "unit": "PC",
+      "active": true,
+      "imageUrl": "https://kicaldo.com.br/wp-content/uploads/2021/04/feijao-carioca-kicaldo.png"
+    },
+    {
+      "id": 15,
+      "name": "Banana Nanica (a granel)",
+      "brand": "Hortifruti",
+      "sku": "HOR002",
+      "category": "Hortifruti",
+      "price": 6.99,
+      "stock": 30,
+      "unit": "KG",
+      "active": true,
+      "imageUrl": null
+    }
+  ]
+}
