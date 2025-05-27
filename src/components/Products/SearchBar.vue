@@ -28,12 +28,13 @@
     <q-space />
 
     <q-btn
-      flat
       dense
       icon="add"
+      color="primay"
       label="Cadastrar Produto"
       @click="cadastrarProduto"
-      class="q-mr-md botao-estilo-input q-pa-sm"
+
+      class="q-mr-md q-pa-sm"
     />
   </q-toolbar>
 </template>

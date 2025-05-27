@@ -13,8 +13,8 @@ const leftDrawerOpen = ref(true) // ou false, dependendo se quer aberta por padr
 
 const linksList = [
   { title: 'Home', icon: 'home', link: '/' },
-  { title: 'Products', icon: 'grocery', link: '/Products' },
-  { title: 'Sales', icon: 'finance', link: '/Sales' },
-  { title: 'Settings', icon: 'settings', link: '/Settings' },
+  { title: 'Produtos', icon: 'grocery', link: '/Products' },
+  { title: 'Vendas', icon: 'finance', link: '/Sales' },
+  { title: 'Configurações', icon: 'settings', link: '/Settings' },
 ]
 </script>
