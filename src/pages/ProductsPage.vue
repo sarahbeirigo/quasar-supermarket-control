@@ -1,11 +1,14 @@
 <template>
-  <SearchBar />
-  <div class="q-pa-md">
-    <h2>Meus Produtos</h2>
-    <p>Aqui virá o conteúdo da sua página de produtos.</p>
-  </div>
+  <q-page>
+    <ProductsToolbar />
+    <div class="justify-center q-pa-md">
+      <ProductList />
+    </div>
+  </q-page>
 </template>
 
 <script setup>
-import SearchBar from 'src/components/Products/SearchBar.vue'
+import ProductsToolbar from 'src/components/Products/ProductsToolbar.vue'
+import ProductList from 'src/components/Products/ProductList.vue'
 </script>
+
