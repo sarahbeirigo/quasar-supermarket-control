@@ -1,6 +1,6 @@
 <template>
   <q-header elevated>
-    <q-toolbar class="q-px-lg">
+    <q-toolbar class="q-pa-md">
       <q-btn flat dense round icon="menu" aria-label="Menu" @click="$emit('toggle-drawer')" />
       <q-toolbar-title> Supermarket Control </q-toolbar-title>
       <div>

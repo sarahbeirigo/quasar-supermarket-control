@@ -1,6 +1,6 @@
 <template>
-  <q-footer elevated class="q-pa-md">
-    <div class="column items-center text-subtitle1 q-gutter-s">
+  <q-footer elevated class="q-pa-sm">
+    <div class="column items-center text-caption q-gutter-s">
       <span>Supermarket Control © 2025</span>
       <span>
         👩‍💻 Code by
