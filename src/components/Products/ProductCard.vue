@@ -43,9 +43,6 @@
           <q-btn flat dense round color="primary" icon="edit">
             <q-tooltip>Editar</q-tooltip>
           </q-btn>
-
-         
-
         </q-card-actions>
       </q-card-section>
     </q-card-section>

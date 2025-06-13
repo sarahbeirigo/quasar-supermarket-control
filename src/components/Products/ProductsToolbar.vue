@@ -7,7 +7,7 @@
         dark
         dense
         standout
-        v-model="textoPesquisa"
+        v-model="searchTerm"
         placeholder="Pesquisar..."
         class="col-11 col-sm-auto"
         style="min-width: 180px"
@@ -21,8 +21,8 @@
         dark
         dense
         standout
-        v-model="filtroSelecionado"
-        :options="opcoesFiltro"
+        v-model="selectedFilter"
+        :options="optionsFilter"
         label="Filtrar por"
         class="col-11 col-sm-auto"
         style="min-width: 180px"
@@ -37,21 +37,32 @@
       text-color="primary"
       icon="add"
       label="Cadastrar Produto"
-      @click="cadastrarProduto"
+      @click="registerProduct"
     />
+
     <!-- <q-tooltip class="bg-secondary xs-only">Cadastrar Produto</q-tooltip> -->
   </q-toolbar>
 </template>
-
 <script setup>
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
-const textoPesquisa = ref('')
-const filtroSelecionado = ref(null)
-const opcoesFiltro = ['Nome', 'Categoria', 'Marca']
-const cadastrarProduto = () => {
-  alert('Botão "Adicionar Produto" foi clicado!')
-  console.log('Valor da pesquisa:', textoPesquisa.value)
-  console.log('Valor do filtro:', filtroSelecionado.value)
+const searchTerm = ref('')
+const selectedFilter = ref('Nome') // Inicia com o valor padrão
+const optionsFilter = ['Nome', 'Categoria', 'Marca', 'SKU']
+
+const emit = defineEmits(['filters-changed'])
+
+watch([searchTerm, selectedFilter], ([newSearch, newFilter]) => {
+  console.log(`Emitindo: Tipo=${newFilter}, Valor=${newSearch}`)
+
+  // Emite um objeto com os novos valores
+  emit('filters-changed', {
+    type: newFilter,
+    value: newSearch,
+  })
+})
+
+const registerProduct = () => {
+  alert('Botão Cadastrar Clicado!')
 }
 </script>
